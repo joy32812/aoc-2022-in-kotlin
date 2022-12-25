@@ -46,7 +46,7 @@ fun main() {
             carry = newCarry
         }
 
-        while (carry > 0) {
+        while (carry != 0) {
             val (cur, newCarry) = computeCarry(carry)
             result.add(cur)
             carry = newCarry
